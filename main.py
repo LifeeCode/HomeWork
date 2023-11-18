@@ -7,3 +7,4 @@
 # Клонировать репозиторий
 # git clone
 # git checkout -b initial создание ветки
+# git commit -m и сообщение в кавычках 'itial and added text file'
