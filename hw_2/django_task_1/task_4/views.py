@@ -12,7 +12,7 @@ def multiplication_table(request, *args, **kwargs):
     context = {
         'data': data
     }
-    return render(request, 'task_4/title.html', context=context)
+    return render(request, 'task_4/index.html', context=context)
 
 
 data = []
