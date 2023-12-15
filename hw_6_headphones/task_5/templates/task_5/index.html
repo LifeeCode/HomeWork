@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Информация о модели наушников</title>
+</head>
+<body>
+<h1>Информация о модели наушников</h1>
+{% if headphone %}
+    <p>Бренд: {{ headphone.brand }}</p>
+    <p>Модель: {{ headphone.model }}</p>
+    <p>Описание: {{ headphone.description }}</p>
+    {% else %}
+    <p>Модель наушников не найдена.</p>
+{% endif %}
+</body>
+</html>
